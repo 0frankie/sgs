@@ -1,5 +1,5 @@
 # Synopsis
-A Sanguosha (三国杀) Discord bot built in TypeScript modeled after the mafia-like Sanguosha card game
+A Sanguosha (三国杀) Discord bot built in Python modeled after the mafia-like Sanguosha card game
 
 ## Introduction to the Game
 Sanguosha is a card game with 4 roles: Emperor (主公), Loyalist (忠诚), Rebel (反贼), and Spy (内间). Each have their own objective, and only the emperor's role is revealed.
