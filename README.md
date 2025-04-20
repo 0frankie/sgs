@@ -6,10 +6,12 @@ Sanguosha is a card game with 4 roles: Emperor (主公), Loyalist (忠诚), Rebe
 Each round, players pick up a card (basic, utility, equipment, or stadium) and decide what to do with them.
 
 ## Basic Roadmap
-- [ ] Create a roles system depending on player count (i.e. 4 players, 1 of each, 5 players, 2 rebels)
+- [x] Create a roles system depending on player count (i.e. 4 players, 1 of each, 5 players, 2 rebels)
 - [ ] Basic cards
 - [ ] Health
 - [ ] Turn-by-turn
+- [ ] Able to play from Discord (vs. bot)
+  - [ ] Able to play each other
 - [ ] Utility and Equipment
 
 ## Advanced Roadmap
