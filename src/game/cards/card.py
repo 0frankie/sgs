@@ -1,2 +1,3 @@
 class Card:
-    pass
+    def action(self):
+        pass

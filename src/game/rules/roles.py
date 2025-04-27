@@ -31,5 +31,3 @@ class Role(Enum):
                 result = Role.get_roles(9)
                 result.append(Role.SPY)
         return result
-
-print(Role.get_roles(6))
