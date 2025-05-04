@@ -8,7 +8,7 @@ from src.game.player import Player
 
 class Deck:
     def __init__(self):
-        self._deck = [K, D, D, P, K, P, P, D, K, D, K, P, D]
+        self._deck = [K, K, K, P, K, P, P, K, K, K, K, P, D]
         self._played_cards = []
 
     @property

@@ -43,5 +43,5 @@ class Player:
 
     def play(self, index: int, other: "Player"):
         card = self._cards[index]
-        card.action(other)
-        self.cards.pop(index)
+        if card.action(other):
+            self.cards.pop(index)

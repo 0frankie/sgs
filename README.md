@@ -7,8 +7,8 @@ Each round, players pick up a card (basic, utility, equipment, or stadium) and d
 
 ## Basic Roadmap
 - [x] Create a roles system depending on player count (i.e. 4 players, 1 of each, 5 players, 2 rebels)
-- [ ] Basic cards
-- [ ] Health
+- [x] Basic cards
+- [x] Health
 - [ ] Turn-by-turn
 - [ ] Able to play from Discord (vs. bot)
   - [ ] Able to play each other
