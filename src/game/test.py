@@ -8,6 +8,7 @@ p1 = Player(Role.EMPEROR, SunQuan())
 p2 = Player(Role.REBEL, SunShangXiang())
 
 def print_info() -> str:
+    #format p1.cards, p2.cards into images
     return "P1 HP: " + str(p1.health) + "\n" + "P1: " + str(p1.cards) + "\n" + "P2 HP: " + str(p2.health)  + "\n" + "P2: " + str(p2.cards)
 
 deck = Deck()

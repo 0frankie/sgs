@@ -22,12 +22,12 @@ class MyClient(discord.Client):
         if message.author.bot:
             return
         await message.channel.send(print_info() + "\n" + "What card would you like to play? Do /test_game [index of card]")
-        # print(f'Message from {message.author}: {message.content}')
-        # file = discord.File("../resources/images/characters/liu_bei.png")
-        # embed = discord.Embed(title="Liu Aei's baobei", type='image', description="Baobei大家好こんにちは")
-        # embed.set_image(url="attachment://../resources/images/characters/liu_bei.png")
-        # channel = message.channel
-        # await channel.send(file = file, embed = embed)
+        print(f'Message from {message.author}: {message.content}')
+        file = discord.File("../resources/images/background.png")
+        embed = discord.Embed(title="Liu Aei's baobei", type='image', description="Baobei大家好こんにちは")
+        embed.set_image(url="attachment://../resources/images/characters/liu_bei.png")
+        channel = message.channel
+        await channel.send(file = file, embed = embed)
 
     async def setup_hook(self) -> None:
         # This copies the global commands over to your guild.
